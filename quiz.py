@@ -10,7 +10,7 @@ main_box.move_ip(50, 40)
 timer_box.move_ip(990, 40)
 answer_box1.move_ip(50, 358)
 answer_box2.move_ip(735, 358)
-answer_box3.move_ip(50, 538)
+answer_box3.move_ip(50, 538) 
 answer_box4.move_ip(735, 538)
 answer_boxes = [answer_box1, answer_box2, answer_box3, answer_box4]
 score = 0
@@ -65,3 +65,4 @@ def update_time_left():
     else:
         game_over()
 clock.schedule_interval(update_time_left, 1.0)
+
