@@ -4,7 +4,7 @@ main_box = Rect(0, 0, 820, 240)
 timer_box = Rect(0, 0, 240, 240)
 answer_box1 = Rect(0, 0, 495, 165)
 answer_box2 = Rect(0, 0, 495, 165)
-answer_box3 = Rect(0, 0, 495, 165)
+answer_box3 = Rect(0, 0, 495, 165) 
 answer_box4 = Rect(0, 0, 495, 165)
 main_box.move_ip(50, 40)
 timer_box.move_ip(990, 40)
@@ -65,4 +65,5 @@ def update_time_left():
     else:
         game_over()
 clock.schedule_interval(update_time_left, 1.0)
+
 
