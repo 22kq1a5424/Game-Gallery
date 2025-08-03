@@ -14,6 +14,7 @@ def on_mouse_down(pos):
         print("Good shot!")
         place_apple()
     else:
-        print("You missed!")
+        print("You missed!") 
         quit()
 place_apple()
+
