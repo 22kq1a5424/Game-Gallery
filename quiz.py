@@ -22,7 +22,7 @@ q4 = ["Which planet is closest to the Sun?","Saturn", "Neptune", "Mercury", "Ven
 q5 = ["Where are the pyramids?","India", "Egypt", "Morocco", "Canada", 2]
 questions = [q1, q2, q3, q4, q5]
 question = questions.pop(0)
-def draw():
+def draw(): 
     screen.fill("dim grey")
     screen.draw.filled_rect(main_box, "sky blue")
     screen.draw.filled_rect(timer_box, "sky blue")
@@ -65,5 +65,6 @@ def update_time_left():
     else:
         game_over()
 clock.schedule_interval(update_time_left, 1.0)
+
 
 
